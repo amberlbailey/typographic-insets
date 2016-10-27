@@ -91,3 +91,7 @@ figure {
   float: right;
   width: 300px;
 }
+
+figcaption {
+  font-style: italic;
+}
