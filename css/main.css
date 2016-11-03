@@ -90,8 +90,15 @@ footer {
 
 .wrapper > p:first-child::first-letter {
   background-color: #666;
-  color: #fff;
+  color: #f2f2f2;
   font-size: 5rem;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  font-style: normal;
+  padding: 12px 13px;
+  float: left;
+  width: 50%;
+  margin: 2px 22px 0 -35px;
 }
 
 figure {
@@ -102,21 +109,24 @@ figure {
   border-right: none;
   padding: .4em .2em;
   margin-right: -150px;
+  margin-top: 5px;
 }
 
 figcaption {
   font-style: italic;
+  padding-top: 2px;
 }
 
 blockquote {
   font-size: 1.5rem;
   color: #666;
   float: left;
-  width: 40%;
+  width: 300px;
+  line-height: 1.2;
   border: 3px solid #333;
   border-left: none;
   border-right: none;
-  padding: .4em .2em;
+  padding: 15px;
   text-align: right;
-  margin-left: -150px;
+  margin: 0 20px 0 -150px;
 }
