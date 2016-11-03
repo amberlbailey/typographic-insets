@@ -94,6 +94,7 @@ figure {
   border-left: none;
   border-right: none;
   padding: .4em .2em;
+  margin-right: -100px;
 }
 
 figcaption {
