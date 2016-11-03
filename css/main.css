@@ -87,6 +87,13 @@ footer {
 */
 
 /* Write your CSS here */
+
+.wrapper > p:first-child::first-letter {
+  background-color: #666;
+  color: #fff;
+  font-size: 5rem;
+}
+
 figure {
   float: right;
   width: 300px;
@@ -94,7 +101,7 @@ figure {
   border-left: none;
   border-right: none;
   padding: .4em .2em;
-  margin-right: -100px;
+  margin-right: -150px;
 }
 
 figcaption {
@@ -111,4 +118,5 @@ blockquote {
   border-right: none;
   padding: .4em .2em;
   text-align: right;
+  margin-left: -150px;
 }
